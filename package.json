@@ -1,0 +1,31 @@
+{
+  "name": "mqtt-climate-nitrogen",
+  "version": "0.0.1",
+  "description": "A demonstration of how to use MQTT on Tessel. Original sample by Jon McKay <jon@technical.io> at https://github.com/johnnyman727/mqtt-climate.git. This one is altered to talk to Nitrogen.io and does both publish and subscribe in the same .js file.",
+  "main": "./sample.js",
+  "dependencies": {
+    "climate-si7005": "^0.1.0",
+    "mqtt": "^0.3.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnnyman727/mqtt-climate.git"
+  },
+  "keywords": [
+    "mqtt",
+    "tessel",
+    "climate",
+    "temperature",
+    "iot"
+  ],
+  "author": "Josh Holmes <josh.holmes@microsoft.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnnyman727/mqtt-climate/issues"
+  },
+  "homepage": "https://github.com/johnnyman727/mqtt-climate"
+}
