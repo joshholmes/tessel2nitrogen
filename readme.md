@@ -106,6 +106,6 @@ Then run this on your Tessel with the following command:
 
 To send a command to your Tessel, use the n2 command line as follows:
 
-'> n2 message send '{"type": "_custom", "tags":["command:<device id>"], "body": {"send": "humidity"}, "from":"<principal id>", "to":"<device id>"}''
+`> n2 message send '{"type": "_custom", "tags":["command:<device id>"], "body": {"send": "humidity"}, "from":"<principal id>", "to":"<device id>"}'`
 
 Log into the [Web Admin Message center](https://admin.nitrogen.io/#/messages/skip/0/sort/ts/direction/-1) to see your messages. 
