@@ -12,6 +12,7 @@ This MQTT sample app allows you to connect to the Nitrogen MQTT gateway from a T
 ## Prerequisites 
 
 You will need: 
+
 1. [Tessel](https://tessel.io/). 
 2. And you'll need to do a [Tessel Climate Module](https://tessel.io/docs/climate). 
 3. Then you'll need to go through their [starting guide](http://start.tessel.io/install). 
